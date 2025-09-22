@@ -1,9 +1,9 @@
 ---
 import { Image } from "astro:assets";
-import svgl from "../../public/svgl.png";
-import stockin from "../../public/stockin.png";
-import moviesfordevs from "../../public/moviesfordevs.png";
-import velez from "../../public/velez.png";
+import snake from "../../public/snake.jpeg";
+import tasaUSDT from "../../public/tasaUSDT.png";
+import basicEcommerce from "../../public/basic-eCommerce.jpeg";
+import trivia from "../../public/trivia.jpeg";
 
 interface Project {
   title: string;
@@ -15,32 +15,32 @@ interface Project {
 
 const projects: Project[] = [
   {
-    title: "MoviesForDevs",
-    image: moviesfordevs as ImageMetadata,
-    link: "https://github.com/gothsec/MoviesForDevs",
-    preview: "https://movies-for-devs.vercel.app",
+    title: "Snake Clone",
+    image: snake as ImageMetadata,
+    link: "https://github.com/SrBellic/Snake-Clone",
+    preview: "https://srbellic.github.io/Snake-Clone/",
     status: "Deployed",
   },
   {
-    title: "StockIn",
-    image: stockin as ImageMetadata,
-    link: "https://github.com/gothsec/stockin-demo",
-    preview: "https://stockin-demo.vercel.app",
+    title: "TasaUSDT API",
+    image: tasaUSDT as ImageMetadata,
+    link: "https://github.com/SrBellic/TasaUSDT",
+    preview: "https://github.com/SrBellic/TasaUSDT",
+    status: "To Deploy",
+  },
+  {
+    title: "Basic eCommerce",
+    image: basicEcommerce as ImageMetadata,
+    link: "https://github.com/SrBellic/ecommerce-frontend",
+    preview: "https://github.com/SrBellic/ecommerce-frontend",
     status: "On Development",
   },
   {
-    title: "Svgl.app",
-    image: svgl as ImageMetadata,
-    link: "https://github.com/pheralb/svgl",
-    preview: "https://svgl.app",
-    status: "Contributor",
-  },
-  {
-    title: "Rifas Velez Web",
-    image: velez as ImageMetadata,
-    link: "https://github.com/Buga-Software/rifasvelez-web",
-    preview: "https://www.rifasvelez.com",
-    status: "Deployed",
+    title: "Trivia RESTful API",
+    image: trivia as ImageMetadata,
+    link: "https://github.com/SrBellic/Trivia-API_REST",
+    preview: "https://github.com/SrBellic/Trivia-API_REST",
+    status: "On Development",
   },
 ];
 ---
@@ -117,7 +117,7 @@ const projects: Project[] = [
     </div>
     <a
       target="_blank"
-      href="https://github.com/Gothsec?tab=repositories"
+      href="https://github.com/SrBellic?tab=repositories"
       aria-label="GitHub"
       class="w-full flex items-center justify-center gap-2 mt-9 text-[var(--white-icon)] hover:text-white transition duration-300 ease-in-out border border-[var(--white-icon-tr)] p-3 rounded-full bg-[#1414149c] hover:bg-[var(--white-icon-tr)] hover:scale-105"
     >
